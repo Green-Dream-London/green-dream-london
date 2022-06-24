@@ -1,0 +1,19 @@
+{
+  "name": "green-dream-london",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyubo03/green-dream-london.git"
+  },
+  "author": "Lyuboslav Balev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyubo03/green-dream-london/issues"
+  },
+  "homepage": "https://github.com/Lyubo03/green-dream-london#readme"
+}
