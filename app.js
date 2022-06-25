@@ -1,14 +1,20 @@
-const express = require("express")
+const express = require('express')
 const bodyParser = require('body-parser')
-const cors = require("cors")
+const cors = require('cors')
 const app = express()
 
 require('dotenv').config()
+
+app.set('view engine', 'ejs');
+app.set('views', 'views')
+
+const homeRoutes = require('./routes/home')
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.json())
 app.use(cors())
 
+app.use(homeRoutes)
 
 app.listen(process.env.PORT, () => {
     console.log(`Listening on port ${process.env.PORT}`)
