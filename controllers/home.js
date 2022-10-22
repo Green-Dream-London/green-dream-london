@@ -5,20 +5,24 @@ const multer = require("multer");
 const path = require("path");
 const fs = require('fs');
 const { dirname } = require("path");
+const logger = require("../utils/logger");
 
 exports.getIndex = async (req, res) => {
-  res.render("home/index", { pageTitle: "Green Dream London" })
+  try {
+    res.render("home/index", { pageTitle: "Green Dream London" })
+  }
+  catch (err) {
+    logger.error(err)
+    return res.status(statusCodes.InternalServerError).redirect("/")
+  }
 }
 
 exports.postEmail = async (req, res) => {
   try {
-    const {subject, email, message} = req.body
-    const attachment = req.files
-    let files = []
-    attachment.forEach(elem => {
-      files.push(elem.path)  
-    })
-
+    const {subject, email} = req.body
+    let message = req.body.message
+    const attachments = req.files
+   
     const validationErrors = validationResult(req)
     if (!validationErrors.isEmpty()) {
       return res
@@ -28,15 +32,23 @@ exports.postEmail = async (req, res) => {
         )
     }
 
-    await receiveEmail(email, subject, message, attachment),
-       sendEmail(email)
+    let files = []
 
-    deletePhotos(files, path)
+    attachments.forEach(elem => {
+      files.push(elem.path)
+      elem.content = fs.readFileSync(elem.path).toString("base64")
+    })
+
+    message += `\nMessage was send by ${email}`
+    await receiveEmail(subject, message, attachments)
+    await sendEmail(email)
+
+    deletePhotos(files)
 
     res.redirect("/")
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     return res.status(statusCodes.InternalServerError).redirect("/")
   }
 }

@@ -3,13 +3,14 @@ const path = require('path')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const multer = require('multer')
+const logger = require('./utils/logger')
 const errorController = require('./controllers/error')
 
 const app = express()
 
 require('dotenv').config()
 
-var Storage = multer.diskStorage({
+const Storage = multer.diskStorage({
     destination: function(req, file, callback) {
         callback(null, "./public/img");
     },
@@ -40,5 +41,5 @@ app.use(homeRoutes)
 app.use(errorController.get404)
 
 app.listen(process.env.PORT, () => {
-    console.log(`Listening on port ${process.env.PORT}`)
+    logger.info(`Listening on port ${process.env.PORT}`)
 })
