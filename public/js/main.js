@@ -92,3 +92,8 @@ function main() {
 
 }
 main();
+
+function makeCall(){
+  window.open('/', '_blank');
+  window.open('tel:+44 779 675 3055', '_parent');
+}

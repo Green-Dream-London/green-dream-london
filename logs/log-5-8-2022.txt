@@ -1,0 +1,51 @@
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 3:57:27 PM"}
+{"level":"error","message":"Forbidden (403)\n  The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements\n    from\n    null","timestamp":"8/5/2022, 3:57:42 PM"}
+{"level":"error","message":"Forbidden (403)\n  The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements\n    from\n    null","timestamp":"8/5/2022, 3:57:43 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:03:21 PM"}
+{"level":"error","message":"Forbidden (403)\n  The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements\n    from\n    null","timestamp":"8/5/2022, 4:03:34 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:07:18 PM"}
+{"level":"error","message":"Forbidden (403)\n  The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements\n    from\n    null","timestamp":"8/5/2022, 4:07:36 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:10:37 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:20:06 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:20:51 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:20:58 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:21:12 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:22:02 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:22:36 PM"}
+{"level":"error","message":"Error: Expected each attachment to contain a `content` string","timestamp":"8/5/2022, 4:22:46 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:26:03 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:26:21 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:27:01 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:27:17 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:29:08 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:29:34 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:29:36 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 4:30:02 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:06:51 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:08:07 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:08:41 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:09:02 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:09:19 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:09:22 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:09:37 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:10:47 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:11:02 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:12:27 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:12:51 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:32:38 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:32:54 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:33:41 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:33:58 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:34:12 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:36:14 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:36:20 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:36:46 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:37:51 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:38:11 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:41:39 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 5:41:51 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 5:54:38 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 6:31:41 PM"}
+{"level":"error","message":"ReferenceError: contentBase64 is not defined","timestamp":"8/5/2022, 6:31:52 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 6:32:13 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"8/5/2022, 6:32:35 PM"}

@@ -1,37 +1,31 @@
 const nodemailer = require('nodemailer')
 const MailMessage = require('nodemailer/lib/mailer/mail-message')
-const constants = require("../common/email-constants")
+const constants = require('../common/email-constants')
+const logger = require('../utils/logger')
+const sgMail = require('@sendgrid/mail')
 
-const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: 587,
-    auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD
-    },
-    tls: {
-        rejectUnauthorized: false
-    }
-})
+sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+
+
 
 const sendEmail = async (email) => {
     try {
-        return await transporter.sendMail({
+        return await sgMail.send({
             from: process.env.EMAIL_USER,
             to: email,
             subject: constants.subject,
             html: constants.html
-        }) 
+        })
     }   
     catch (err) {
-        console.log(err.toString())
+        logger.error(err.toString())
     }
 }
 
-const receiveEmail = async (email, subject, text, attachments) => {
+const receiveEmail = async (subject, text, attachments) => {
     try {
-        return await transporter.sendMail({
-            from: email,
+        return await sgMail.send({
+            from: process.env.EMAIL_USER,
             to: process.env.EMAIL_USER,
             subject,
             text,
@@ -39,7 +33,7 @@ const receiveEmail = async (email, subject, text, attachments) => {
         }) 
     }   
     catch (err) {
-        console.log(err.toString())
+        logger.error(err.toString())
     }
 }
 
