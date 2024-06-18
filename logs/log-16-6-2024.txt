@@ -1,0 +1,22 @@
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:27:05 PM"}
+{"level":"error","message":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-a6f56db5c55sm441148866b.48 - gsmtp","timestamp":"6/16/2024, 11:27:38 PM"}
+{"level":"error","message":"sendError: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-a6f56db682bsm436299666b.62 - gsmtp","timestamp":"6/16/2024, 11:27:38 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:28:37 PM"}
+{"level":"error","message":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-a6f56da328csm447726166b.12 - gsmtp","timestamp":"6/16/2024, 11:28:53 PM"}
+{"level":"error","message":"sendError: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-a6f56db5c32sm439026966b.70 - gsmtp","timestamp":"6/16/2024, 11:28:53 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:46:44 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:47:41 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:47:59 PM"}
+{"level":"error","message":"Error: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:48:29 PM"}
+{"level":"error","message":"sendError: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:48:29 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:48:45 PM"}
+{"level":"error","message":"Error: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:48:55 PM"}
+{"level":"error","message":"sendError: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:48:55 PM"}
+{"level":"error","message":"Error: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:49:58 PM"}
+{"level":"error","message":"sendError: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:49:58 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:51:12 PM"}
+{"level":"error","message":"Error: connect ECONNREFUSED 127.0.0.1:465","timestamp":"6/16/2024, 11:51:27 PM"}
+{"level":"error","message":"sendError: connect ECONNREFUSED 127.0.0.1:465","timestamp":"6/16/2024, 11:51:27 PM"}
+{"level":"info","message":"Listening on port 3000","timestamp":"6/16/2024, 11:52:02 PM"}
+{"level":"error","message":"Error: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:52:14 PM"}
+{"level":"error","message":"sendError: connect ECONNREFUSED 127.0.0.1:587","timestamp":"6/16/2024, 11:52:14 PM"}
